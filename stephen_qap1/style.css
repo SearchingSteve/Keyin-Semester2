@@ -1,0 +1,139 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1A1A2E;
+    color: #E6E6E6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #EAEAEA;
+    border: 8px solid #333;
+    border-style: ridge;
+    color: #1A1A2E;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50pt;
+    font-weight: 900;
+    text-align: center;
+    width: 90%; 
+    height: 90%;
+    max-width: 1400px; 
+    margin: auto; 
+}
+
+nav {
+    background-color: #333;
+    border: 3px solid #1A1A2E;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    min-width: 120px;
+}
+
+nav a {
+    color: black;
+    font-size: 24pt;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #FFF;
+    border: 3px solid #1A1A2E;
+    color: #333;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-item {
+    background-color: #FFF;
+    border: 10px solid #1A1A2E;
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 275px;
+}
+
+.grid-item img {
+    height: auto;
+    width: auto;
+}
+
+footer {
+    background-color: #333;
+    border-top: 5px solid #1A1A2E;
+    color: #EAEAEA;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20pt;
+    padding: 20px;
+    text-align: center;
+}
+
+figure {
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+figcaption {
+    color: #1A1A2E;
+    font-style: oblique;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+}
+
+video {
+    max-width: 100%;
+}
+
+a, a:visited {
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
