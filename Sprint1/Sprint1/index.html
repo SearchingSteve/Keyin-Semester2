@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint1 Gary Blue's Diner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+          integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        .box {
+            border: 1px solid black;
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .quantity-input {
+            display: none; /* Initially hidden */
+            margin-left: 10px;
+        }
+        #notification {
+            position: fixed;
+            top: -50px;
+            left: 0;
+            width: 100%;
+            background-color: #f9f9f9;
+            text-align: center;
+            color: #333;
+            padding: 10px;
+            font-size: 16px;
+            border-bottom: 1px solid #ccc;
+            transition: top 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+<h2>Welcome to Gary Blue's Diner</h2>
+
+<p>Main</p>
+<div class="box">
+    <div class="item">
+        <button onclick="toggleVisibility('big-gary-quantity')">Big Gary</button>
+        <input type="number" id="big-gary-quantity" class="quantity-input" value="0" min="0"/>
+
+    </div>
+    <div class="item">
+        <button onclick="toggleVisibility('chicken-quantity')">Bucket O' Chicken</button>
+        <input type="number" id="chicken-quantity" class="quantity-input" value="0" min="0"/>
+    </div>
+</div>
+
+<p>Sides</p>
+<div class="box">
+    <div class="item">
+        <button onclick="toggleVisibility('taters-quantity')">Taters</button>
+        <input type="number" id="taters-quantity" class="quantity-input" value="0" min="0"/>
+    </div>
+    <div class="item">
+        <button onclick="toggleVisibility('soup-quantity')">Soup</button>
+        <input type="number" id="soup-quantity" class="quantity-input" value="0" min="0"/>
+    </div>
+    <div class="item">
+        <button onclick="toggleVisibility('poutine-quantity')">Poutine</button>
+        <input type="number" id="poutine-quantity" class="quantity-input" value="0" min="0"/>
+    </div>
+    <div class="item">
+        <button onclick="toggleVisibility('salad-quantity')">Salad</button>
+        <input type="number" id="salad-quantity" class="quantity-input" value="0" min="0"/>
+    </div>
+</div>
+
+<button id="submitOrder" onclick="submitOrder()">Submit Order</button>
+
+<script src="scripts/script.js"></script>
+
+<!-- <script> function toggleVisibility(id) {
+    var input = document.getElementById(id);
+    if (input.style.display === 'none' || input.style.display === '') {
+        input.style.display = 'block';
+    } else {
+        input.style.display = 'none';
+    }
+}
+
+</script> -->
+
+</body>
+</html>
