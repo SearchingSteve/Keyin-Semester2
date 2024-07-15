@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.toDoList {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b1b1b1;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+.toDoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.notCompleted {
+    color: red;
+}
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+.status-completed {
+    color: green;
+    font-weight: bold;
+}
+.status-not-completed {
+    color: red;
+    font-weight: bold;
+}
