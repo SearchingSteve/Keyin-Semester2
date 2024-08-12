@@ -41,8 +41,9 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/dog-image-gallery.git
-   cd dog-image-gallery
+   git clone https://github.com/SearchingSteve/Keyin-Semester2.git
+   cd stephen_qap3/dog-image-gallery
+   ```
 
 2. Install the dependencies:
    ```sh
