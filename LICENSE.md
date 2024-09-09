@@ -10,6 +10,12 @@ Under the following terms:
 - NonCommercial — You may not use the material for commercial purposes.
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+### Important Notice
+This repository contains school projects completed as part of my coursework. **Unauthorized use of this material for academic purposes, such as submitting it as your own work, is strictly prohibited.**
+
+Any misuse of the material, including but not limited to plagiarism or academic dishonesty, is solely the responsibility of the individual involved. I assume no liability for any actions taken by third parties who use this material inappropriately.
 
 More information on the license can be found at: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+
+
